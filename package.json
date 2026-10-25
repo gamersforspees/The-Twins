@@ -1,0 +1,12 @@
+{
+  "name": "the-twins",
+  "version": "1.0.0",
+  "private": true,
+  "description": "منصة أخبار طلاب مستر هيثم الشبراوي",
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node --no-warnings server.js",
+    "create-admin": "node --no-warnings manage.js create-admin",
+    "test": "node --no-warnings test.js"
+  }
+}
